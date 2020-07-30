@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <style>
+            #a{background-color: gray;border-radius: 20px; padding:20px;}
+            .btn{padding: 15px;}
+        </style>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container">
+        <form action="submit" id="a"><br><br><br>
+        <label for="name">Name:</label>
+        <input id="name" type="text" name="name"><br><br>
+        <label for="pwd">Password:</label>
+        <input id="pwd" type="password"name="pwd"> <br><br>
+        <label for="email">Email ID:</label> 
+        <input  id="email" type="email"name="email"><br><br>
+        Gender:
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+        
+        <label for="country">Country</label>
+            <select name="country" id="country">
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="China">China</option>
+            <option value="Sri Lanka">Sri Lanka</option>
+            </select><br><br>
+            Qualification:
+            <input type="checkbox" id="be" name="be" value="BE">
+            <label for="be"> BE</label>
+            <input type="checkbox" id="btech" name="btech" value="BTech">
+            <label for="btech"> BTECH</label>
+            <input type="checkbox" id="MCA" name="MCA" value="MCA">
+            <label for="vehicle3"> MCA</label>
+       <br><br>
+        <label for="add">Address:</label>
+        <textarea></textarea> <br><br><br>
+        <input class="btn-primary" type="submit" value="SUBMIT">
+        </form>
+    </div>
+    </body>
+</html>
